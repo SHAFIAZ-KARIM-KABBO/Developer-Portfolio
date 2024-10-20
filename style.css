@@ -28,9 +28,7 @@
 }
 /* Navbar styles */
 
-.Open Sans{
-    font-family: "Open Sans", sans-serif;
-}
+.Open Sans{ font-family: "Open Sans", sans-serif;}
 
 nav{
     display: flex;
@@ -38,8 +36,6 @@ nav{
     justify-content:space-between;
     margin: 30px 200px;
 }
-
-
 .nav-title{
     font-size: 45px;
     font-weight: 800;
@@ -48,17 +44,37 @@ nav ul{
     display: flex;
     align-items: center;
 }
-
 nav ul li{
     list-style: none;
     margin-right: 51px;
    
 }
-
 nav li a{
     text-decoration: none;
     font-size: 20px;
 }
 
-
 /* End-Navbar-styles */
+
+/* Banner-Styles */
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.banner-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+
+}
+
+.banner-discription{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+/* End Banner-Styles */
